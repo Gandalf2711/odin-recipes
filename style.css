@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(214, 204, 204);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center
+}
+
+.text,
+.list {
+    font-family: Helvetica, sans-serif;
+}
+
+.list {
+    list-style:circle;
+}
+
+img,
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 500;
+    height: auto;
+}
+
+button {
+    background-color: rgb(212, 150, 108);
+    color: white;
+    font-size: 16px;
+}
