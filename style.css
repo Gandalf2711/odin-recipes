@@ -1,12 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(214, 204, 204);
-    font-family: Arial, sans-serif;
+    background-color: #e89bab;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 h1 {
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    margin: 40px auto;
+    width: 500px;
+
 }
 
 h3 {
@@ -15,24 +26,39 @@ h3 {
     text-align: center
 }
 
-.text,
-.list {
-    font-family: Helvetica, sans-serif;
-}
-
-.list {
-    list-style:circle;
-}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+  }
+ 
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: black;
+  }
 
 img,
-button{
+button {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 img {
-    width: 500;
+    width: 1000;
     height: auto;
+    border-radius: 12px;
+}
+
+.button {
+    background-color: #d4bf68;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    width: 200px;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
 }
 
 button {
