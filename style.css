@@ -5,13 +5,22 @@
 body {
     background-color: #e89bab;
     font-family:'Courier New', Courier, monospace;
+}
+
+div {
     text-align: center;
+}
+
+h1,
+a:hover,
+a:active {
+    text-decoration: underline;
 }
 
 h1 {
     font-size: 32px;
     font-weight: bold;
-    text-decoration: underline;
+    
 }
 
 p {
@@ -23,7 +32,18 @@ p {
 h3 {
     font-size: 20px;
     font-weight: 600;
-    text-align: center
+    margin: 40px auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
 }
 
 a:link,
@@ -31,15 +51,8 @@ a:visited {
     text-decoration: none;
     color: black;
   }
- 
-a:hover,
-a:active {
-    text-decoration: underline;
-    color: black;
-  }
 
-img,
-button {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,19 +63,14 @@ img {
     border-radius: 12px;
 }
 
-.button {
+button {
     background-color: #d4bf68;
     color: white;
     font-size: 18px;
     padding: 8px;
+    margin: 20px;
     width: 200px;
     border-radius: 12px;
     font-family: 'Courier New', Courier, monospace;
     display: inline-block;
-}
-
-button {
-    background-color: rgb(212, 150, 108);
-    color: white;
-    font-size: 16px;
 }
